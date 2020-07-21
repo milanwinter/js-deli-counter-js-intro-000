@@ -5,7 +5,7 @@ function takeANumber (katzDeli, name) {
   return `Welcome, ${name}. You are number ${number} in line.`
   }
 
-  
+
 function nowServing(katzDeli) {
   if (katzDeli.length > 0) {
     return "Currently serving " + katzDeli.shift() + ".";
