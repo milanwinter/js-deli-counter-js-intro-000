@@ -4,6 +4,8 @@ function takeANumber (katzDeli, name) {
   let number = katzDeli.indexOf(name) + 1
   return `Welcome, ${name}. You are number ${number} in line.`
   }
+
+  
 function nowServing(katzDeli) {
   if (katzDeli.length > 0) {
     return "Currently serving " + katzDeli.shift() + ".";
@@ -11,6 +13,7 @@ function nowServing(katzDeli) {
     return "There is nobody waiting to be served!";
   }
 }
+
 function currentLine(katzDeli) {
   let line = ""
   if (katzDeli.length === 0) {
